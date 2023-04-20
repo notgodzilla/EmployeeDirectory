@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/valid_employee_list"
+        android:title="@string/valid_employee_list" />
+    <item
+        android:id="@+id/malformed_employee_list"
+        android:title="@string/malformed_employee_list" />
+    <item
+        android:id="@+id/empty_employee_list"
+        android:title="@string/empty_employee_list" />
+</menu>

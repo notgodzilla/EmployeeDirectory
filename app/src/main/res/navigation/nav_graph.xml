@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/employeeDirectoryFragment">
+
+    <fragment
+        android:id="@+id/employeeDirectoryFragment"
+        android:name="com.notgodzilla.android.myapplication.ui.EmployeeDirectoryFragment"
+        android:label="EmployeeDirectoryFragment"
+        tools:layout="@layout/fragment_employee_directory"
+        >
+        <action
+            android:id="@+id/action_employeeDirectoryFragment_to_employeeDetailFragment"
+            app:destination="@id/employeeDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/employeeDetailFragment"
+        android:name="com.notgodzilla.android.myapplication.ui.EmployeeDetailFragment"
+        android:label="EmployeeDetailFragment" >
+        <argument
+            android:name="employeeName"
+            app:argType="string" />
+        <argument
+            android:name="employeeEmail"
+            app:argType="string" />
+        <argument
+            android:name="employeePhotoUrl"
+            app:argType="string" />
+    </fragment>
+</navigation>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EmployeeDirectory</string>
+    <string name="generic_error">Oops! Something went wrong.</string>
+    <string name="no_employees_found">No employees found.</string>
+    <string name="valid_employee_list">Valid</string>
+    <string name="malformed_employee_list">Malformed</string>
+    <string name="empty_employee_list">Empty</string>
+    <string name="choose_email_client">Choose Email Client</string>
+</resources>
